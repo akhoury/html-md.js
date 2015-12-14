@@ -1,4 +1,6 @@
 (function() {
+  var PACKAGE = require('../package.json');
+  
   var DEFAULT_OPTIONS, HtmlParser, JS_DOM, PREVIOUS_MD, REGEX, REPLACEMENTS, R_HIDDEN_STYLES, R_HIDDEN_VALUE, R_IGNORE_CHILDREN, R_PARAGRAPH_ONLY, key, md, padLeft, result, trim,
     __hasProp = {}.hasOwnProperty,
     _this = this;
@@ -573,7 +575,7 @@
     });
   }
 
-  md.version = md.VERSION = '3.0.4';
+  md.version = md.VERSION = PACKAGE.version;
 
   md.noConflict = function() {
     _this.md = PREVIOUS_MD;

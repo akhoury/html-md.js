@@ -331,7 +331,7 @@
     };
 
     HtmlParser.prototype.process = function(ele) {
-      var after, after1, after2, childNode, err, href, i, level, rel, skipChildren, src, suffix, summary, title, _base, _i, _len, _ref, _ref1;
+      var after, after1, after2, childNode, err, href, i, level, rel, skipChildren, src, suffix, summary, title, lang, _base, _i, _len, _ref, _ref1;
       if (!this.isVisible(ele)) {
         return;
       }
@@ -410,11 +410,12 @@
                 this.li();
                 break;
               case 'PRE':
-                if (this.inPre) {
+				if (this.inPre) {
                   break;
                 }
-                this.output('```\n');
-                after1 = this.code();
+				lang = this.attr(ele, 'lang') || this.attr(ele, 'language') || this.attr(ele, 'data-lang') || this.attr(ele, 'data-language');
+                this.output('```' + (lang || '') + '\n');
+                after1 = this.pre();
                 after2 = this.outputLater('\n```');
                 after = function() {
                   after1();

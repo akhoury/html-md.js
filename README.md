@@ -19,4 +19,4 @@ see original docs here: https://github.com/neocotic/html.md
 
 ## wtf? why?
 
-Because i found my self keep editing that [fork](https://github.com/akhoury/html-md-optional_window) in coffeescript, and 1 day I gave up, so, also the original [repo]() doesn't seem active.
+Because i found my self keep editing that [fork](https://github.com/akhoury/html-md-optional_window) in coffeescript, and 1 day I gave up, so. Also the original [repo]() doesn't seem active.

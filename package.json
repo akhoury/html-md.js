@@ -1,0 +1,35 @@
+{
+	"name": "html-md.js",
+	"version": "1.0.0",
+	"description": "JavaScript library for converting HTML in to valid Markdown",
+	"main": "index.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/akhoury/html-md.js.git"
+	},
+	"authors": [
+		{"name": "Trevor Jim", "email": "trever@research.att.com"},
+		{"name": "Alasdair Mercer", "email": "mercer.alasdair@gmail.com"},
+		{"name": "Tim Chaplin", "email": "tjchaplin@hotmail.com"},
+		{"name": "Aziz Khoury", "email": "bentael@gmail.com"}
+	],
+	"dependencies": {
+		"commander": "~2.0.0",
+		"fs-extra": "~0.7.0",
+		"jsdom-nogyp": "~0.8.3"
+	},
+	"keywords": [
+		"html",
+		"markdown",
+		"convert"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/akhoury/html-md.js/issues"
+	},
+	"bin": {
+		"htmlmd": "./bin/htmlmd"
+	},
+	"homepage": "https://github.com/akhoury/html-md.js"
+}

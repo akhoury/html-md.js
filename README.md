@@ -1,3 +1,6 @@
+# NO LONGER MAINTAINED!
+switched to [to-markdown](https://github.com/domchristie/to-markdown)
+
 # html-md.js
 
 Basically a compiled version of the original [html-md](https://github.com/neocotic/html.md) (so no more coffeescript) + this [pull#43](https://github.com/neocotic/html.md/pull/43) + few other changes
